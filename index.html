@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Cloud Budget</title>
+</head>
+<body>
+    <main class="main_page">         
+        <header class="header">
+            <div class="container">
+                <button class="header_burger" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="header_logo">
+                    <img src="images/Logo.png" alt="Logo">
+                </div>
+                <nav class="header_menu">
+                    <ul class="header_menu_list">
+                        <li><a class="header_menu_item" data-link="about">Обзор</a></li>
+                        <li><a class="header_menu_item" data-link="possibilities">Возможности</a></li>
+                        <li><a class="header_menu_item" data-link="technologies">Технологии</a></li>
+                        <li><a class="header_menu_item" data-link="contact_us">Контакты</a></li>
+                        <li><a class="header_menu_item" href="#">Войти</a></li>
+                    </ul>
+                </nav>
+                <button class="header_button">Вход</button>
+                
+
+            </div>
+        </header>
+
+        <section class="preview" id="preview">
+            <div class="container">
+                <h1 class="preview_h1">CloudBudget</h1>
+                <p class="preview_p">Управление бюджетом для всех.<br>Всего 69,95€ в месяц после 7-дневной<br>пробной версии за 4,99€</p>
+                <button class="button preview_button" id="main_action_button">Попробовать</button>
+            </div>
+        </section>
+    </main>
+
+    <section class = "about" id="about">
+        <div class="container">
+            <div class="about_description">
+                <h3 class="about_h3">Простое приложение для управления бюджетом</h3>
+                <p class="about_p">Наше приложение создано, чтобы вы могли в реальном времени управлять своим бюджетом и расходами в режиме онлайн с любого устройства. Оно предоставляет подробные отчеты о доходах и расходах с графиками, чтобы вы сразу могли увидеть расходы и бюджет. Читайте ниже, чтобы узнать больше.</p>
+                <a href="" class="about_more_information">Узнать подробнее</a>
+            </div>
+            <div class="about_image"><img src="./images/About.png" alt=""></div>
+        </div>
+    </section>
+    
+    <section class="possibilities" id="possibilities">
+        <div class="container">
+            <h3 class="possibilities_h3">Возможности</h3>
+            <div class="possibilities_cards">
+                <div class="possibilities_card">
+                    <img src="./images/card1.png" alt="" class="possibilities_image">
+                    <div class="possibilities_card_text">
+                        <h5 class="possibilities_h5">Поддерживает все валюты и карты</h5>
+                        <p class="possibilities_p">Мы поддерживаем все популярные валюты и карты любых банков, в том числе иностранных</p>
+                        <a href="" class="possibilities_more_information">Подробнее</a>
+                    </div>
+                </div>
+
+                <div class="possibilities_card">
+                    <img src="./images/card2.png" alt="" class="possibilities_image">
+                    <div class="possibilities_card_text">
+                        <h5 class="possibilities_h5">Управляйте своими расходами на ходу</h5>
+                        <p class="possibilities_p">Вы можете получить доступ к своей учетной записи из любой точки мира на любом устройстве</p>
+                        <a href="" class="possibilities_more_information">Подробнее</a>
+                    </div>
+                </div>
+
+                <div class="possibilities_card">
+                    <img src="./images/card3.png" alt="" class="possibilities_image">
+                    <div class="possibilities_card_text">
+                        <h5 class="possibilities_h5">Управление бюджетом осуществляется в облаке</h5>
+                        <p class="possibilities_p">Наше приложение создано для того, чтобы вы могли управлять управлять своим бюджетом</p>
+                        <a href="" class="possibilities_more_information">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- слайдер -->
+    <div class="itcss">
+        <div class="itcss__wrapper">
+            <div class="itcss__items">
+                    <div class="itcss__item">
+                        <div class="possibilities_card">
+                            <img src="./images/card1.png" alt="" class="">
+                            <div class="possibilities_card_text">
+                                <h5 class="possibilities_h5">Поддерживает все валюты и карты</h5>
+                                <p class="possibilities_p">Мы поддерживаем все популярные валюты и карты любых банков, в том числе иностранных</p>
+                                <a href="" class="possibilities_more_information">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itcss__item">
+                        <div class="possibilities_card">
+                            <img src="./images/card2.png" alt="" class="">
+                            <div class="possibilities_card_text">
+                                <h5 class="possibilities_h5">Управляйте своими расходами на ходу</h5>
+                                <p class="possibilities_p">Вы можете получить доступ к своей учетной записи из любой точки мира на любом устройстве</p>
+                                <a href="" class="possibilities_more_information">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itcss__item">
+                        <div class="possibilities_card">
+                            <img src="./images/card3.png" alt="" class="">
+                            <div class="possibilities_card_text">
+                                <h5 class="possibilities_h5">Управление бюджетом осуществляется в облаке</h5>
+                                <p class="possibilities_p">Наше приложение создано для того, чтобы вы могли управлять управлять своим бюджетом</p>
+                                <a href="" class="possibilities_more_information">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+        <a class="itcss__btn itcss__btn_prev" href="#" role="button" data-slide="prev"></a>
+        <a class="itcss__btn itcss__btn_next" href="#" role="button" data-slide="next"></a>
+    </div>
+    <!--  -->
+    
+    <section class="technologies" id="technologies">
+        <div class="container">
+            <h3 class="technologies_h3">Технологии</h3>
+            <div class="technologies_cards">
+                <div class="technologies_card">
+                    <div class="technologies_card_number">01</div>
+                    <div class="technologies_card_text_and_icon">
+                        <div class="technologies_card_icon"><img src="./images/icon1.png" alt=""></div>
+                        <h5 class="technologies_h5">Облачное хранение</h5>
+                        <p class="technologies_p">Доступ из любой точки мира с любого устройства</p>
+                    </div>
+                </div>
+    
+                <div class="technologies_card">
+                    <div class="technologies_card_number">02</div>
+                    <div class="technologies_card_text_and_icon">
+                        <div class="technologies_card_icon"><img src="./images/icon2.png" alt=""></div>
+                        <h5 class="technologies_h5">Безопастность</h5>
+                        <p class="technologies_p">Вся  информация хранится на защищенных облачных серверах</p>
+                    </div>
+                </div>
+    
+                <div class="technologies_card">
+                    <div class="technologies_card_number">03</div>
+                    <div class="technologies_card_text_and_icon">
+                        <div class="technologies_card_icon"><img src="./images/icon3.png" alt=""></div>
+                        <h5 class="technologies_h5">PDF Отчеты</h5>
+                        <p class="technologies_p">Скачивайте ваши отчеты в удобном формате PDF</p>
+                    </div>
+                </div>
+    
+                <div class="technologies_card">
+                    <div class="technologies_card_number">04</div>
+                    <div class="technologies_card_text_and_icon">
+                        <div class="technologies_card_icon"><img src="./images/icon4.png" alt=""></div>
+                        <h5 class="technologies_h5">CSV Отчеты</h5>
+                        <p class="technologies_p">Скачивайте ваши отчеты в удобном формате CSV</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "app_dowland" id="app_dowland">
+        <div class="container">
+            <div class="app_dowland_description">
+                <h3 class="app_dowland_h3">Сосредоточьтесь на экономии денег</h3>
+                <p class="app_dowland_p">Мы помогаем вам отслеживать ваши привычки в расходах, чтобы вы могли легко определить и сократить ненужные расходы. Просто присоединяйтесь сегодня, чтобы начать!</p>
+                <a href="" class="playstore_icon"><img src="./images/ion-logo-google-playstore.png" alt="Playstore icon"></a>
+                <a href="" class="appstore_icon"><img src="./images/ion-logo-apple-appstore.png" alt="Appstore icon"></a>
+            </div>
+            <div class="app_dowland_image"><img src="./images/App_dowland.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="contact_us" id="contact_us">
+        <div class="container">
+            <div class="contact_us_description">
+                <h3 class="contact_us_h3">Напишите нам</h3>
+                <p class="contact_us_p">Остались вопросы или опасения? Просто заполните форму ниже, и наша служба поддержки свяжется с вами в течение 24 часов.</p>
+            </div>
+            <div class="contact_us_form">
+                <input type="text" placeholder="Имя" class="contact_us_form_text"  id="name">
+                <input type="tel" placeholder="Телефон" class="contact_us_form_tel" id="tel">
+                <button class="button contact_us_button" id="contact_button">Отправить</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="adress">
+        <div class="container">
+            <h6 class="adress_h6">Адрес</h6>
+            <p class="adress_p">Pipang Ltd, Griva Digeni,<br>81-83 Jacovides Tower, 1st Floor<br> 1090 Picosia USA</p>
+            <p class="footer_p">Copyright 2021 CloudBudget</p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
